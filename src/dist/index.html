@@ -144,9 +144,9 @@
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">One Handed Rollator</p>
-                <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/project-1-cover.png">
+                <p class="title">Electrostatic Amplifier Modifications</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-1-modal" src="img/stax.jpg">
                 </figure>
               </article>
             </div>
@@ -154,32 +154,34 @@
               <article class="tile is-child notification">
                 <p class="title">Steering Wheel Design</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/project-2-cover.png">
+                  <img class="modal-trigger" data-target="project-2-modal" src="img/Steering Wheel.png">
                 </figure>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Soccer Matches CRUD App</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/project-3-cover.png">
+                <p class="title">One Handed Rollator</p>
+                <figure class="image is-4by2">
+                  <img class="modal-trigger" data-target="project-3-modal" src="img/Rollator cad.png">
                 </figure>
               </article>
             </div>
           </div>
         </div>
       </div>
+      <!--
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Food & Fitness Tracking</p>
+                <p class="title">Soccer Matches CRUD App</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-4-modal" src="img/project-4-cover.png">
+                  <img class="modal-trigger" data-target="project-4-modal" src="img/project-3-cover.png">
                 </figure>
               </article>
             </div>
+
             <div class="tile is-parent">
               <article class="tile is-child notification">
                 <p class="title">AI Coloured Candies Counting </p>
@@ -188,17 +190,19 @@
                 </figure>
               </article>
             </div>
+
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Electrostatic Amplifier Modifications</p>
+                <p class="title">Food & Fitness Tracking</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-6-modal" src="img/project-6-cover.png">
+                  <img class="modal-trigger" data-target="project-6-modal" src="img/project-4-cover.png">
                 </figure>
               </article>
             </div>
           </div>
         </div>
       </div>
+    -->
     </div>
   </section>
 
@@ -285,36 +289,57 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">STAX SRM-006t CCS & 6SN7 Conversion</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-1-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/006t/ccs schem.png">
+          </figure>
+          <figure class="image is-4by2 carousel-cell">
+            <img src="img/006t/ccs pcb.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/006t/ccs.jpg">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/006t/6sn7 schem.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/006t/6sn7 R.png">
+          </figure>
+          <figure class="image is-4by2 carousel-cell">
+            <img src="img/006t/6cg7.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/006t/6sn7 L.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/006t/adapters.jpg">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/006t/installed.jpg">
           </figure>
         </div>
 
         <div class="content">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <p>Using a STAX SRM-006t amplifier as a base, modification were possible to increase the signal performance. 
+            By adpting the constant current source (CCS) module (circuit design by Jame Lin) for both channels (Left & Right, +/-), the signal quality would significantly be increased.
+            Custom PCBs for the CCS were designed and integrated into the amplifier. 
+            <br><br>
+            Additionally, a circuit and PCB were developed to convert 6CG7 tubes to 6SN7 tubes, providing increased headroom and reduced distortions due to the 6SN7's higher current handling capacity and improved linearity compared to the 6CG7/6FQ7.
+            <br><br>
+            Aging components were also refurbished to enhance overall performance and lifespan of the amplifier.</p>
 
           <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
+            <span class="tag">Altium</span>
+            <span class="tag">PCB Design</span>
+            <span class="tag">Circuit Design</span>
+            <span class="tag">Refurbishment</span>
+            <span class="tag">Signal Overhaul</span>
           </div>
 
         </div>
@@ -330,36 +355,40 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Western Sunstang - Steering Wheel Design</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-2-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/Steering Wheel/Assembly 1.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/Steering Wheel/Assembly 1 (1).png">
+          </figure>
+          <figure class="image is-1by1 carousel-cell">
+            <img src="img/Steering Wheel/Image.jpg">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/Steering Wheel/group.jpg">
           </figure>
         </div>
 
         <div class="content">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <p>Independently designed a custom, fully 3D-printable steering wheel using Onshape CAD software for the Western Sungstang Solar Car Project. 
+            Focused on optimizing ergonomics and button placement for ease of use, with thorough research to ensure comfort and functionality. 
+            The design adheres to specific guidelines, offering a personalized and practical solution for the competition.</p>
 
           <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
+            <span class="tag">CAD</span>
+            <span class="tag">Research & Development</span>
+            <span class="tag">Design</span>
+            <span class="tag">Ergonomics</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Onshape</span>
+
           </div>
 
         </div>
@@ -375,13 +404,13 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Electrostatic Amplifier Modifications</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
         <div id="project-3-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/006t/installed.jpg">
           </figure>
           <figure class="image is-4by3 carousel-cell">
             <img src="img/carousel/2.png">
